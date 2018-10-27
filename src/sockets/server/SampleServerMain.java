@@ -7,7 +7,7 @@ import sockets.messaging.readers.MessageParserFactory;
 import sockets.messaging.writers.MessageWriterFactory;
 import sockets.util.FactoryInitializer;
 
-public class ServerMain {
+public class SampleServerMain {
 
 	public static void main(String[] args) throws IOException {
 		FactoryInitializer.initializeFactories(MessageWriterFactory.class);

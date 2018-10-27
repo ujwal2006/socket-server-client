@@ -9,7 +9,7 @@ import sockets.messaging.readers.MessageParserFactory;
 import sockets.messaging.writers.MessageWriterFactory;
 import sockets.util.FactoryInitializer;
 
-public class ClientMain {
+public class SampleClientMain {
 
 	public static void printIntArray(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
